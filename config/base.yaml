@@ -1,0 +1,29 @@
+data:
+  random_seed: 42
+  synapse_ids:
+    - syn00000000 # Placeholder
+  patch_size: 64
+  samples_per_volume: 8
+  train_ratio: 0.80
+  val_ratio: 0.15
+
+posterior_mean:
+  save_path: posterior_mean_model_3d.pth
+  num_epochs: 200
+  lr: 5e-4
+  batch_size: 8
+  patience: 20
+
+rectified_flow:
+  save_path: pmrf_model_3d.pth
+  sigma_s: 0.1
+  num_epochs: 200
+  lr: 5e-4
+  batch_size: 64
+  patience: 20
+
+inference:
+  batch_size: 128
+  overlap: 32
+  patch_size: 64
+  sigma_s: 0.1
