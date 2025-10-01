@@ -1,7 +1,7 @@
 # Posterior-Mean Rectified Flow for Realistic & Accurate Virtual Contrast MRI
 
-[![arXiv](https://img.shields.io/badge/arXiv-2508.12640-b31b1b.svg)](https://arxiv.org/abs/2508.12640)
-[![DOI](https://img.shields.io/badge/DOI-10.48550/arXiv.2508.12640-blue.svg)](https://doi.org/10.48550/arXiv.2508.12640)
+[![SpringerLink](https://img.shields.io/badge/SpringerLink-Published%20chapter-orange.svg)](https://link.springer.com/chapter/10.1007/978-3-032-05573-6_16)
+[![DOI](https://img.shields.io/badge/DOI-10.1007%2F978--3--032--05573--6__16-blue.svg)](https://doi.org/10.1007/978-3-032-05573-6_16)
 
 A CLI toolkit for training, inference, slice generation, and evaluation of volumetric posterior-mean rectified-flow and
 baseline models for virtual contrast enhancement on 3D MRI data.
@@ -10,11 +10,11 @@ baseline models for virtual contrast enhancement on 3D MRI data.
 
 ##  General Introduction
 
-> This repository accompanies the following paper:
+> This repository accompanies the following conference paper:
 >
 > **“Synthesizing Accurate and Realistic T1-weighted Contrast-Enhanced MR Images using Posterior-Mean Rectified Flow”**  
 > *Bastian Brandstötter & Erich Kobler*  
-> [arXiv](https://arxiv.org/abs/2508.12640) · [DOI: 10.48550/arXiv.2508.12640](https://doi.org/10.48550/arXiv.2508.12640)
+> [SpringerLink](https://link.springer.com/chapter/10.1007/978-3-032-05573-6_16) · [DOI: 10.1007/978-3-032-05573-6_16](https://doi.org/10.1007/978-3-032-05573-6_16) · [arXiv (preprint)](https://arxiv.org/abs/2508.12640)
 
 The **PMRF Pipeline** provides end-to-end support for:
 
@@ -190,19 +190,26 @@ Collects and merges all inference and perceptual metrics into a single CSV at:
 
 If you use this repository, please cite:
 
-Brandstötter, B., & Kobler, E. (2025). *Synthesizing Accurate and Realistic T1-weighted Contrast-Enhanced MR Images using Posterior-Mean Rectified Flow.* arXiv:2508.12640. https://doi.org/10.48550/arXiv.2508.12640
+> Brandstötter, B., Kobler, E. (2026). Synthesizing Accurate and Realistic T1-Weighted Contrast-Enhanced MR Images Using Posterior-Mean Rectified Flow. In: Fernandez, V., Wiesner, D., Zuo, L., Casamitjana, A., Remedios, S.W. (eds) Simulation and Synthesis in Medical Imaging. SASHIMI 2025. Lecture Notes in Computer Science, vol 16085. Springer, Cham. https://doi.org/10.1007/978-3-032-05573-6_16
 
 **BibTeX:**
 ```bibtex
-@misc{brandstotter2025pmrf_mri,
-  title         = {Synthesizing Accurate and Realistic T1-weighted Contrast-Enhanced MR Images using Posterior-Mean Rectified Flow},
-  author        = {Brandst{\"o}tter, Bastian and Kobler, Erich},
-  year          = {2025},
-  eprint        = {2508.12640},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.CV},
-  doi           = {10.48550/arXiv.2508.12640},
-  url           = {https://arxiv.org/abs/2508.12640}
+@InProceedings{10.1007/978-3-032-05573-6_16,
+  author    = {Brandst{"o}tter, Bastian
+               and Kobler, Erich},
+  editor    = {Fernandez, Virginia
+               and Wiesner, David
+               and Zuo, Lianrui
+               and Casamitjana, Adri{\`a}
+               and Remedios, Samuel W.},
+  title     = {Synthesizing Accurate and Realistic T1-Weighted Contrast-Enhanced MR Images Using Posterior-Mean Rectified Flow},
+  booktitle = {Simulation and Synthesis in Medical Imaging},
+  year      = {2026},
+  publisher = {Springer Nature Switzerland},
+  address   = {Cham},
+  pages     = {159--169},
+  isbn      = {978-3-032-05573-6},
+  doi       = {10.1007/978-3-032-05573-6_16}
 }
 ```
 
